@@ -12,7 +12,7 @@ ytdlp = dirPath + "/binaries/yt-dlp"
 aria2c = dirPath + "/binaries/aria2c"
 ffmpeg = dirPath + "/ffmpeg/ffmpeg"
 
-os.system(f"chmod 777 {ytdlp} {aria2c} {mkvmerge} {ffmpeg} ffmpeg/ffprobe ffmpeg/qt-faststart")
+os.system(f"chmod 777 {ytdlp} {aria2c} {ffmpeg} ffmpeg/ffprobe ffmpeg/qt-faststart")
 
 def req(link):
     inp = link #input('Enter the Link: ')
